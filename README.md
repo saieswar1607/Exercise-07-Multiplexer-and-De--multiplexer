@@ -74,7 +74,7 @@ and(s,s0,s1,i3);
 or(y,p,q,r,s);
 endmodule
 
-# 1 X 4 Multiplexer
+# 1 X 4 De-Multiplexer
 
 module EX7_2(y0,y1,y2,y3,s0,s1,i);
 input s0,s1,i;
