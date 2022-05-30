@@ -87,8 +87,6 @@ and(y1,i,s0c,s1c);
 and(y2,i,s0,s1c);
 and(y3,i,s0,s1);
 endmodule
-
-
 ```
 ### RTL LOGIC  
 
