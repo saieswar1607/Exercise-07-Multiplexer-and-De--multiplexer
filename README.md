@@ -52,23 +52,52 @@ If the control input changes to AB = 10, then all the gates are restricted excep
 
 
 ### PROGRAM 
+```
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Sai Eswar Kandukuri
+RegisterNumber:  212221240020
 */
 
+# 4 X 1 Multiplexer
+
+module EX7(i0,i1,i2,i3,s0,s1,y);
+input i0,i1,i2,i3,s0,s1;
+output y;
+not(s0c,s0);
+nor(s1c,s1);
+wire p,q,r,s,s0c,s1c;
+and(p,s0c,s1c,i0);
+and(q,s0c,s1,i1);
+and(r,s0,s1c,i2);
+and(s,s0,s1,i3);
+or(y,p,q,r,s);
+endmodule
+
+# 1 X 4 Multiplexer
+
+module EX7_2(y0,y1,y2,y3,s0,s1,i);
+input s0,s1,i;
+output y0,y1,y2,y3;
+wire s0c,s1c;
+nor(s0c,s0);
+nor(s1c,s1);
+and(y0,i,s0c,s1,);
+and(y1,i,s0c,s1c);
+and(y2,i,s0,s1c);
+and(y3,i,s0,s1);
+endmodule
 
 
-
-
-
+```
 ### RTL LOGIC  
 
+#### 4 X 1 Multiplexer
+<img width="960" alt="output1" src="https://user-images.githubusercontent.com/93427011/170914222-31108ad5-f421-4fc9-a77e-65f01026380a.png">
 
 
-
-
+#### 1 X 4 Multiplexer
+<img width="750" alt="output2" src="https://user-images.githubusercontent.com/93427011/170914266-97f46844-05b8-44dc-8aeb-ce7df6c72964.png">
 
 
 
