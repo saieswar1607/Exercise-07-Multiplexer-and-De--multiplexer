@@ -88,28 +88,29 @@ and(y2,i,s0,s1c);
 and(y3,i,s0,s1);
 endmodule
 ```
-### RTL LOGIC  
+#### RTL LOGIC  
 
 #### 4 X 1 Multiplexer
 <img width="960" alt="output1" src="https://user-images.githubusercontent.com/93427011/170914222-31108ad5-f421-4fc9-a77e-65f01026380a.png">
+
+#### TIMING DIGRAMS  
+![T1](https://user-images.githubusercontent.com/93427011/170961609-f636551e-48fa-4e67-bff6-5b1b4e3d5d0c.jpeg)
+![T2](https://user-images.githubusercontent.com/93427011/170961644-ff24ebe1-aba7-49a4-a2fe-8176c82f5066.jpeg)
+![T3](https://user-images.githubusercontent.com/93427011/170961660-3826494c-15e5-4896-bd54-c61c465c6bd3.jpeg)
+![T4](https://user-images.githubusercontent.com/93427011/170961671-289ba854-7adf-4cc3-a6cc-72f793da224c.jpeg)
+
+#### TRUTH TABLE 
 
 
 #### 1 X 4 Multiplexer
 <img width="750" alt="output2" src="https://user-images.githubusercontent.com/93427011/170914266-97f46844-05b8-44dc-8aeb-ce7df6c72964.png">
 
+#### TIMING DIGRAMS  
+![T5](https://user-images.githubusercontent.com/93427011/170961810-580463ac-4657-4c24-a9cc-863daad9f81b.png)
 
 
-### TIMING DIGRAMS  
-
-
-
-
-
-### TRUTH TABLE 
-
-
-
-
+#### TRUTH TABLE 
 
 
 ### RESULTS 
+Hence 4x1 Multiplexer and 1x4 Demultiplexer is been implemented and verified using verilog programming and its output are validated.
